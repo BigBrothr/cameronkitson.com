@@ -1,0 +1,128 @@
+
+.gif {
+  position: absolute;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+
+  top: 50%;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+}
+
+.arrow-container {
+  position: absolute;
+  display: inline-block;
+
+  top: 85%;
+  bottom: 0;
+  left: 85%;
+  right: 0;
+}
+
+.hero-text-home a {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  border: 1.5px solid transparent;
+  border-color: black;
+  padding: 12px 30px;
+  line-height: 1.4;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: all .55s ease;
+  margin: 160px 0;
+}
+
+.hero-text-home a:hover {
+  background: black;
+  border: 1.5px solid rgb(255, 255, 255);
+  color: white;
+  transform: translateX(8px);
+}
+  
+.scroll-down {
+  color: black;
+  display: block;
+  text-align: center;
+
+  margin-bottom: 8px;
+}
+
+.bouncing-arrow {
+  height: 9px;
+  width: 18px;
+  color: rgb(57, 60, 65);
+  display: block;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  animation: bounce 0.9s infinite;
+}
+
+@keyframes bounce {
+  10% {
+    height: 10px;
+    width: 18px;
+  }
+
+  30% {
+    height: 10px;
+    width: 18px;
+  }
+
+  50% {
+    height: 10px;
+    width: 18px;
+    transform: translateY(10px);
+  }
+
+  75% {
+    height: 10px;
+    width: 18px;
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+ 
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr 1fr;
+  text-align: center;
+
+  margin-top: 750px;
+  margin-bottom: 200px;
+}
+
+.text.section {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 100px) {
+  
+  .underconstruction {
+    height: 187.62px;
+  }
+  
+    .ucimage {
+      width: 100%;
+      height: 100%;
+    }
+
+  }

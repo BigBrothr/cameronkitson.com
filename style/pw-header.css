@@ -1,0 +1,159 @@
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex
+  ;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+
+  top: 0;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 8px;
+  padding-left: 8px;
+
+  z-index: 9999;
+}
+
+.header2 {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  top: 0;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 8px;
+  padding-left: 8px;
+  background-color: white;
+
+  z-index: 9999;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+  margin-left: 16px;
+}
+
+a:link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-decoration: none; 
+  color: black;
+
+  margin-right: 16px;
+}
+
+.right {
+  display: flex;
+  align-items:baseline;
+
+  margin-right: 16px;
+}
+
+@media only screen and (min-width: 512px) {
+  
+  .left {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  
+    margin-left: 12px;
+  }
+  
+  a:link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-decoration: none; 
+    color: black;
+  
+    margin-right: 26px;
+  }
+  
+  .right {
+    display: flex;
+    align-items:baseline;
+  
+    margin-right: 12px;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .left {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  
+    margin-left: 32px;
+  }
+  
+  a:link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-decoration: none; 
+    color: black;
+  
+    margin-right: 48px;
+  }
+  
+  .right {
+    display: flex;
+    align-items:baseline;
+  
+    margin-right: 32px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  
+  .left {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    margin-left: 56px;
+  }
+  
+  a:link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-decoration: none; 
+    color: black;
+  
+    margin-right: 72px;
+  }
+  
+  .right {
+    display: flex;
+    align-items:baseline;
+  
+    margin-right: 56px;
+  }
+
+  .header2 {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    top: 0;
+  
+    margin-bottom: 32px;
+    padding-right: 8px;
+    padding-left: 8px;
+    background-color: white;
+  
+    z-index: 9999;
+  }
+}

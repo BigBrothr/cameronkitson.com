@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  line-height: 56px;
+  list-style: none;
+  margin-bottom: 48px;
+}

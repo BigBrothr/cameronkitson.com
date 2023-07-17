@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title> Cameron Kitson | Designer </title>
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style/pw-general.css">
+  <link rel="stylesheet" href="style/pw-header.css">
+  <link rel="stylesheet" href="style/pw-buttons.css">
+  <link rel="stylesheet" href="style/pw-start.css">
+  <link rel="stylesheet" href="style/pw-footer.css">
+  <link rel="stylesheet" type="text/css" href="style/work-styles.css">
+
+
+</head>
+
+<body>
+
+  <div class="gif-container">
+    <img class="gif" src="images/wave-emoji.gif">
+    <div class="arrow-container">
+      <p class="scroll-down"> scroll down </p>
+      <img class="bouncing-arrow" src="images/black-arrow.png">
+    </div>
+  </div>
+  
+  <header>
+    <div class="header">
+      <div class="left">
+        <a href="home.html"> Home </a>
+        <a href="home.html#about"> About</a>
+        <a href="work.html"> Work </a>
+      </div>
+      
+      <div class="right">
+        <a href="work.html#contact"> Contact me </a>
+      </div>
+    </div>    
+  </header>
+
+  <div class="right">
+  </div>
+
+  <div class="about-me">
+
+    <div class="images-left">
+
+    </div>
+
+    <div class="text-container">
+
+      <div class="images-left">
+      </div>
+
+      <div class="text-section">
+        <a name="about"></a>
+        <div>
+          <li class="text-container reveal">
+            Hi, I’m Cameron,
+            I’m a Product, Graphic UX, UI designer and an upcoming Front-End Developer
+          </li>
+          </a>
+
+          <li class="text-container reveal">
+            I’m based in the Midlands, UK
+          </li>
+
+          <li class="text-container reveal">
+            I’m in my final year studying BSc Product Design at Nottingham Trent university.
+          </li>
+
+          <li class="text-container reveal">
+            I worked at an e-commerce and financial service company called Very based in the UK where I was an intern
+            fetching coffee for 10 months...
+          </li>
+
+          <li class="text-container reveal">
+            Just kidding
+          </li>
+
+          <li class="text-container reveal">
+            I learned many things and met some amazing people whilst I was there, I worked collaboratively with senior
+            designers, always keeping the customer at the heart
+            and centre of the design process.
+          </li>
+
+          <li class="text-container reveal">
+            Any life stresses are relieved by monthly air-soft battles with friends and family.
+          </li>
+
+          <li class="text-container reveal">
+            Please see below to view my portfolio for further details and work.
+          </li>
+        
+          </a> 
+        </div>
+        <section class="hero-home">
+          <div class="hero-text-home">
+              <a href="work.html" >View work</a>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="images-right">
+    </div>
+  </div>
+      
+      <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+          var reveals = document.querySelectorAll('.reveal');
+
+          for (var i = 0; i < reveals.length; i++) {
+
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 400;
+            
+
+            if (revealtop < windowheight - revealpoint) {
+              reveals[i].classList.add('active');
+              
+            }
+            else {
+              reveals[i].classList.remove('active');
+              
+            }
+          }
+        }
+
+      </script>
+</body>
+
+</html>

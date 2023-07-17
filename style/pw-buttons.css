@@ -1,0 +1,161 @@
+.contact-container {
+  display: flex;
+}
+
+.contact-button {
+  color: black;
+  font-size: 32px;
+  border-width: 2px;
+  border-color: black;
+  background-color: transparent;
+  border-radius: 40px;
+
+  padding: 12px 12px 12px 12px;
+}
+
+.projects-button {
+  color: black;
+  font-size: 16px;
+  border-width: 3px;
+  border-color: black;
+  background-color: transparent;
+  border-radius: 40px;
+  cursor: pointer;
+
+  margin-bottom: 200px;
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 16px 32px 16px 32px;
+}
+
+.project-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 64px;
+}
+
+@media only screen and (min-width: 512px) {
+  .contact-container {
+    display: flex;
+  }
+  
+  .contact-button {
+    color: black;
+    font-size: 24px;
+    border-width: 2px;
+    border-color: black;
+    background-color: none;
+    border-radius: 40px;
+  
+    padding: 14px 14px 14px 14px;
+  }
+  
+  .projects-button {
+    color: black;
+    font-size: 24px;
+    border-width: 3px;
+    border-color: black;
+    background-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+  
+    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 16px 32px 16px 32px;
+  }
+  
+  .project-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-right: 64px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-container {
+    display: flex;
+  }
+  
+  .contact-button {
+    color: black;
+    font-size: 32px;
+    border-width: 2px;
+    border-color: black;
+    background-color: none;
+    border-radius: 40px;
+  
+    padding: 16px 16px 16px 16px;
+  }
+  
+  .projects-button {
+    color: black;
+    font-size: 28px;
+    border-width: 3px;
+    border-color: black;
+    background-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+  
+    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 16px 32px 16px 32px;
+  }
+  
+  .project-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-right: 64px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact-container {
+    display: flex;
+  }
+  
+  .contact-button {
+    color: black;
+    font-size: 32px;
+    border-width: 2px;
+    border-color: black;
+    background-color: none;
+    border-radius: 50px;
+  
+    padding: 16px 16px 16px 16px;
+  }
+  
+  .projects-button {
+    color: black;
+    font-size: 28px;
+    border-width: 3px;
+    border-color: black;
+    background-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+  
+    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 16px 32px 16px 32px;
+  }
+  
+  .project-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-right: 64px;
+  }
+}
